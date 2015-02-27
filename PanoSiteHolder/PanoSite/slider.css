@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.carousel {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+}
+.item img {
+	width: 100%;	
+}
+/* CSS Document */
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<panoramaStudioViewer version="3.0">
+    <image projection="cubic" multilevel="true" baseindex="1">
+      <bitmap width="1558" height="1558" tilesize="480"> 
+        <front src="Everett Panorama1_tiles/Everett Panorama1_t_1f_%y_%x.jpg"/>
+        <back src="Everett Panorama1_tiles/Everett Panorama1_t_1b_%y_%x.jpg"/>
+        <left src="Everett Panorama1_tiles/Everett Panorama1_t_1l_%y_%x.jpg"/>
+        <right src="Everett Panorama1_tiles/Everett Panorama1_t_1r_%y_%x.jpg"/>
+        <up src="Everett Panorama1_tiles/Everett Panorama1_t_1u_%y_%x.jpg"/>
+        <down src="Everett Panorama1_tiles/Everett Panorama1_t_1d_%y_%x.jpg"/>
+      </bitmap>
+      <bitmap width="779" height="779" tilesize="480"> 
+        <front src="Everett Panorama1_tiles/Everett Panorama1_t_2f_%y_%x.jpg"/>
+        <back src="Everett Panorama1_tiles/Everett Panorama1_t_2b_%y_%x.jpg"/>
+        <left src="Everett Panorama1_tiles/Everett Panorama1_t_2l_%y_%x.jpg"/>
+        <right src="Everett Panorama1_tiles/Everett Panorama1_t_2r_%y_%x.jpg"/>
+        <up src="Everett Panorama1_tiles/Everett Panorama1_t_2u_%y_%x.jpg"/>
+        <down src="Everett Panorama1_tiles/Everett Panorama1_t_2d_%y_%x.jpg"/>
+      </bitmap>
+      <bitmap width="389" height="389" tilesize="480"> 
+        <front src="Everett Panorama1_tiles/Everett Panorama1_t_3f_%y_%x.jpg"/>
+        <back src="Everett Panorama1_tiles/Everett Panorama1_t_3b_%y_%x.jpg"/>
+        <left src="Everett Panorama1_tiles/Everett Panorama1_t_3l_%y_%x.jpg"/>
+        <right src="Everett Panorama1_tiles/Everett Panorama1_t_3r_%y_%x.jpg"/>
+        <up src="Everett Panorama1_tiles/Everett Panorama1_t_3u_%y_%x.jpg"/>
+        <down src="Everett Panorama1_tiles/Everett Panorama1_t_3d_%y_%x.jpg"/>
+      </bitmap>
+      <preview src="Everett Panorama1_tiles/Everett Panorama1_preview.jpg" />
+      <fallback projection="cubic"> 
+        <small face_size="576"> 
+          <front src="Everett Panorama1_tiles/Everett Panorama1-439_s_f.jpg"/>
+          <back src="Everett Panorama1_tiles/Everett Panorama1-439_s_b.jpg"/>
+          <left src="Everett Panorama1_tiles/Everett Panorama1-439_s_l.jpg"/>
+          <right src="Everett Panorama1_tiles/Everett Panorama1-439_s_r.jpg"/>
+          <up src="Everett Panorama1_tiles/Everett Panorama1-439_s_u.jpg"/>
+          <down src="Everett Panorama1_tiles/Everett Panorama1-439_s_d.jpg"/>
+        </small> 
+        <medium face_size="1200"> 
+          <front src="Everett Panorama1_tiles/Everett Panorama1-439_m_f.jpg"/>
+          <back src="Everett Panorama1_tiles/Everett Panorama1-439_m_b.jpg"/>
+          <left src="Everett Panorama1_tiles/Everett Panorama1-439_m_l.jpg"/>
+          <right src="Everett Panorama1_tiles/Everett Panorama1-439_m_r.jpg"/>
+          <up src="Everett Panorama1_tiles/Everett Panorama1-439_m_u.jpg"/>
+          <down src="Everett Panorama1_tiles/Everett Panorama1-439_m_d.jpg"/>
+        </medium> 
+        <preview src="Everett Panorama1_tiles/Everett Panorama1-439_fb_preview.jpg" />
+      </fallback> 
+    </image>
+    <camera minpan="0.00" maxpan="180.00" mintilt="-55.39" maxtilt="55.39" maxzoom="1.5"     />
+    <view pan="90.00" tilt="0.00" hfov="90.00" />
+        <autoplay status="off" pan="2.00" tilt="0.00" zoom="1.00" restart="5.00" />
+    <toolbar visible="true" layout="0" design="12" 
+      fullscreenbutton="true" playbutton="true" 
+      buttonwidth="24" buttonheight="20" dpidependent="true" touchzoomonly="true"
+      align="leftbottom"  xoff="4" yoff="-4" 
+    />
+    <progress type="progressBar" text="Loading: %d%" style=" color:#ffffff; font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; text-align:center; " filters="glow, #000000 ,1,2.0,2.0,3,1 ; glow,#000000,0.5,5.0,5.0,1,1"/>    <strings lang="en" />
+</panoramaStudioViewer>
